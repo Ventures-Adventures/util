@@ -9,8 +9,8 @@ import (
 	"github.com/go-redis/redis"
 
 	"context"
-	"MagicEnglish/common/logs"
-	"MagicEnglish/common/lb/hash"
+	"common/logs"
+	"common/lb/hash"
 )
 
 
