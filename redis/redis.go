@@ -6,8 +6,8 @@ import (
 	"strings"
 	"strconv"
 	"github.com/go-redis/redis"
-	"MagicEnglish/common/logs"
-	"MagicEnglish/common/lb/hash"
+	"common/logs"
+	"common/lb/hash"
 )
 
 var conns []*redis.Client
