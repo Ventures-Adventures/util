@@ -7,8 +7,8 @@ import(
 )
 
 func init(){
-	//opt := Options{Addr:"120.79.38.97:6379",
-	opt := Options{Addr:"www.huangli.com:6379",
+	//opt := Options{Addr:"xxxxx:6379",
+	opt := Options{Addr:"www..com:6379",
 		Password:"ksd_f123Au29u3p03",
 		DB : 0,
 		DialTimeout :2*time.Second,
