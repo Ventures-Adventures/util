@@ -7,8 +7,8 @@ import (
 	"errors"
 	"context"
 	"github.com/go-redis/redis"
-	"MagicEnglish/common/logs"
-	"MagicEnglish/common/lb/hash/chash"
+	"common/logs"
+	"common/lb/hash/chash"
 )
 
 var (
