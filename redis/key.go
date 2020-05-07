@@ -2,11 +2,11 @@ package redis
 
 
 const(
-	KeyFormat              = "abctime:frequency:%d:%s"
-	LockKeyFormat          = "abctime:frequency:lock:%d:%s"
+	KeyFormat              = ":frequency:%d:%s"
+	LockKeyFormat          = ":frequency:lock:%d:%s"
 
-	CaptchaFormat          = "abctime:captcha:login:%s"
+	CaptchaFormat          = ":captcha:login:%s"
 
-	LogUserInfoHashMap     = "abctime:logsystem:hashmap:userinfo_"
-	LogTopics   		   = "abctime:logsystem:topics"
+	LogUserInfoHashMap     = ":logsystem:hashmap:userinfo_"
+	LogTopics   		   = ":logsystem:topics"
 )
